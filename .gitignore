@@ -1,0 +1,26 @@
+# --- Security ---
+.env
+
+# --- Python & Environments ---
+__pycache__/
+*.pyc
+venv/
+.venv/
+build/
+dist/
+*.egg-info/
+
+# --- Project Specific (Cloned Data) ---
+# This ignores everything inside data/repos but keeps the folder structure
+data/repos/*
+!data/repos/.gitkeep
+
+# --- IDE & OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Logs & DB ---
+logs/
+db/
